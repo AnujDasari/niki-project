@@ -1,32 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[Validate dashboard<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Validate%20dashboard_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Validate dashboard</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Alert Message<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Alert%20Message_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Alert Message</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[User Information<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20User%20Information_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of User Information</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Burger Menu Clicked<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Burger%20Menu%20Clicked_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Burger Menu Clicked</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Help Section Expanded<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Help%20Section%20Expanded_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Help Section Expanded</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="42360" started-at="2017-05-06T11:48:35Z" finished-at="2017-05-06T11:49:17Z">
+  <suite name="Suite" duration-ms="122210" started-at="2017-05-06T12:48:13Z" finished-at="2017-05-06T12:50:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="42360" started-at="2017-05-06T11:48:35Z" finished-at="2017-05-06T11:49:17Z">
+    <test name="Test" duration-ms="122210" started-at="2017-05-06T12:48:13Z" finished-at="2017-05-06T12:50:15Z">
       <class name="com.niki.tests.app.AppTests">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.niki.tests.app.AppTests@56ac3a89]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2017-05-06T17:18:35Z" finished-at="2017-05-06T17:18:35Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.niki.tests.app.AppTests@490ab905]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2017-05-06T18:18:13Z" finished-at="2017-05-06T18:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.niki.tests.app.AppTests@56ac3a89]" name="beforeClass" is-config="true" duration-ms="15247" started-at="2017-05-06T17:18:35Z" finished-at="2017-05-06T17:18:50Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.niki.tests.app.AppTests@490ab905]" name="beforeClass" is-config="true" duration-ms="17964" started-at="2017-05-06T18:18:13Z" finished-at="2017-05-06T18:18:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="validateHelpSection()[pri:0, instance:com.niki.tests.app.AppTests@56ac3a89]" name="validateHelpSection" duration-ms="26816" started-at="2017-05-06T17:18:50Z" finished-at="2017-05-06T17:19:17Z">
+        <test-method status="PASS" signature="validateDashboard()[pri:1, instance:com.niki.tests.app.AppTests@490ab905]" name="validateDashboard" duration-ms="6998" started-at="2017-05-06T18:18:31Z" finished-at="2017-05-06T18:18:38Z">
           <reporter-output>
+            <line>
+              <![CDATA[Validate dashboard<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Validate%20dashboard_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Validate dashboard</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDashboard -->
+        <test-method status="PASS" signature="cancelAction()[pri:2, instance:com.niki.tests.app.AppTests@490ab905]" name="cancelAction" duration-ms="16342" started-at="2017-05-06T18:18:38Z" finished-at="2017-05-06T18:18:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert Message<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Alert%20Message_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Alert Message</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cancelAction -->
+        <test-method status="PASS" signature="validateUserInfo()[pri:3, instance:com.niki.tests.app.AppTests@490ab905]" name="validateUserInfo" duration-ms="4851" started-at="2017-05-06T18:18:54Z" finished-at="2017-05-06T18:18:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Information<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20User%20Information_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of User Information</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserInfo -->
+        <test-method status="PASS" signature="validateSidePanelOptions()[pri:4, instance:com.niki.tests.app.AppTests@490ab905]" name="validateSidePanelOptions" duration-ms="48073" started-at="2017-05-06T18:18:59Z" finished-at="2017-05-06T18:19:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Burger Menu Clicked<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Burger%20Menu%20Clicked_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Burger Menu Clicked</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSidePanelOptions -->
+        <test-method status="PASS" signature="validateHelpSection()[pri:5, instance:com.niki.tests.app.AppTests@490ab905]" name="validateHelpSection" duration-ms="25565" started-at="2017-05-06T18:19:47Z" finished-at="2017-05-06T18:20:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Help Section Expanded<a href=file:/C:/Users/anuj_d/Desktop/Saltmine1/niki-project/./Resources/Screenshots/Sat_May_06_18_18_13_IST_2017/%20Help%20Section%20Expanded_Sat_May_06_18_18_13_IST_2017.png> click to open screenshot of Help Section Expanded</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validateHelpSection -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.niki.tests.app.AppTests@56ac3a89]" name="afterClass" is-config="true" duration-ms="281" started-at="2017-05-06T17:19:17Z" finished-at="2017-05-06T17:19:17Z">
+        <test-method status="PASS" signature="exitApplication()[pri:6, instance:com.niki.tests.app.AppTests@490ab905]" name="exitApplication" duration-ms="2043" started-at="2017-05-06T18:20:12Z" finished-at="2017-05-06T18:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitApplication -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.niki.tests.app.AppTests@490ab905]" name="afterClass" is-config="true" duration-ms="328" started-at="2017-05-06T18:20:14Z" finished-at="2017-05-06T18:20:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.niki.tests.app.AppTests@56ac3a89]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-05-06T17:19:17Z" finished-at="2017-05-06T17:19:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- com.niki.tests.app.AppTests -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

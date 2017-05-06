@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import com.niki.utils.HelperManager;
 import com.niki.utils.ReportNGReport;
 
+/*Dashboard Page page object*/
 public class DashboardPage extends BasePage {
 
 	public DashboardPage(WebDriver driver) {
@@ -77,8 +78,10 @@ public class DashboardPage extends BasePage {
 	}
 
 	/* click on help button */
-	public void clickOnHelpButton() {
+	public void clickOnHelpButton() throws InterruptedException {
+		driver.navigate().back();
 		helpButton.click();
+		Thread.sleep(1000);
 	}
 
 	public void exitApp() {

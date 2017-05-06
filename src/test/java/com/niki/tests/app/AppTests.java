@@ -6,19 +6,19 @@ import org.testng.annotations.Test;
 import com.niki.utils.ReportNGReport;
 
 public class AppTests extends BaseTest {
-	@Test
+	@Test(priority=1)
 	public void validateDashboard() throws Exception {
 		dashboardPO.validateDashboard();
 		ReportNGReport.captureScreenshot(driver, "Validate dashboard");
 
 	}
 
-	@Test
+	@Test(priority=2)
 	public void cancelAction() throws InterruptedException {
 		dashboardPO.initiateAndCancelAction();
 	}
 
-	@Test
+	@Test(priority=3)
 	public void validateUserInfo() {
 		dashboardPO.clickOnBurgerMenu();
 		Boolean userInfoStatus = sidePanelPO.validateUserInfo("Anuj Dasari",
@@ -34,16 +34,23 @@ public class AppTests extends BaseTest {
 
 	}
 
-	@Test
+	@Test(priority=4)
 	public void validateSidePanelOptions() throws InterruptedException {
 		dashboardPO.clickOnBurgerMenu();
+		ReportNGReport.captureScreenshot(driver, "Burger Menu Clicked");
 		sidePanelPO.clickOnAllSidePanelOptions();
+		
 	}
 	
-	@Test
+	@Test(priority=5)
 	public void validateHelpSection() throws InterruptedException {
 		dashboardPO.clickOnHelpButton();
-		Thread.sleep(2000);
+		ReportNGReport.captureScreenshot(driver, "Help Section Expanded");
 		helpSectionPO.clickOnHelpIcons();
+	}
+	
+	@Test(priority=6)
+	public void exitApplication() {
+		dashboardPO.exitApp();
 	}
 }

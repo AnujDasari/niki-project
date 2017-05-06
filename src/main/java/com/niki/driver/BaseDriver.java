@@ -26,10 +26,10 @@ public class BaseDriver {
 	AppiumDriverLocalService service = AppiumDriverLocalService
 			.buildService(new AppiumServiceBuilder()
 					.usingDriverExecutable(
-							new File("C:/Program Files (x86)/Appium/node.exe"))
+							new File("C:/Program Files (x86)/Appium/node.exe"))//path of node in local
 					.withAppiumJS(
 							new File(
-									"C:/Program Files (x86)/Appium/node_modules/appium/bin/appium.js")));
+									"C:/Program Files (x86)/Appium/node_modules/appium/bin/appium.js"))); //path of appium.js in local
 
 	/* For Device Only - START APPIUM SERVER */
 	protected void appiumStart() {

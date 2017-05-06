@@ -45,7 +45,7 @@ public class SidePanelPage extends BasePage {
 	}
 
 	public void clickOnAllSidePanelOptions() throws InterruptedException {
-		for(int i = 0 ;i < options.size(); i++) {
+		for(int i = 0 ;i < options.size() ; i++) {
 			options.get(i).click();
 			Thread.sleep(2000);
 			driver.navigate().back();

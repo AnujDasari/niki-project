@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test"
-           tests="1"
+           tests="6"
            failures="0"
            errors="0"
            skipped="0"
-           time="26.816">
+           time="103.872">
   <properties />
   
   
-            <testcase name="validateHelpSection" time="26.816" classname="com.niki.tests.app.AppTests" />
+            <testcase name="validateSidePanelOptions" time="48.073" classname="com.niki.tests.app.AppTests" />
+                <testcase name="validateUserInfo" time="4.851" classname="com.niki.tests.app.AppTests" />
+                <testcase name="validateDashboard" time="6.998" classname="com.niki.tests.app.AppTests" />
+                <testcase name="validateHelpSection" time="25.565" classname="com.niki.tests.app.AppTests" />
+                <testcase name="cancelAction" time="16.342" classname="com.niki.tests.app.AppTests" />
+                <testcase name="exitApplication" time="2.043" classname="com.niki.tests.app.AppTests" />
       
 </testsuite>

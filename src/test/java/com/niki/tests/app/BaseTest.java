@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.TestNG;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
@@ -30,7 +29,7 @@ public class BaseTest extends BaseDriver {
 		driver = setupApp();
 		dashboardPO = PageFactory.initElements(driver, DashboardPage.class);
 		sidePanelPO = PageFactory.initElements(driver, SidePanelPage.class);
-		helpSectionPO = PageFactory.initElements(driver,  HelpSectionPage.class);
+		helpSectionPO = PageFactory.initElements(driver, HelpSectionPage.class);
 	}
 
 	/* After Class */
@@ -39,8 +38,4 @@ public class BaseTest extends BaseDriver {
 		appiumStop();
 	}
 
-	@AfterSuite()
-	public void afterSuite() {
-
-	}
 }

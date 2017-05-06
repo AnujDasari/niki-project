@@ -1,8 +1,9 @@
 package com.niki.utils;
 
 import io.appium.java_client.AppiumDriver;
+
 import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.Alert;
+
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -77,17 +78,4 @@ public class HelperManager {
 			e.printStackTrace();
 		}
 	}
-
-	/**
-	 * This method handles alert windows
-	 **/
-	public static void handleAlert(String status, WebDriver driver) {
-		Alert alert = driver.switchTo().alert();
-		if (status.equalsIgnoreCase("YES")) {
-			alert.accept();
-		} else if (status.equalsIgnoreCase("NO")) {
-			alert.dismiss();
-		}
-	}
-
 }
