@@ -21,11 +21,12 @@ A simple framework to run Functional Test Scripts for Niki mobile application. T
 9. BaseTest.java : Base Test class with BeforeSuite and BeforeClass/AfterClass configurations.
 
 ### Resources
-1. Screenshots folder - This folder contains the screenshots captured in the test scripts.
+Screenshots folder - This folder contains the screenshots captured in the test scripts.  
+Screenshots are stored at `./Resources/Screenshots`
 
 ### Test Report
 Test Reports are generated under Resources folder:
-2. ReportNG Reports : `./test-output/html/index.html`  
+1. ReportNG Reports : `./test-output/html/index.html`  
 
 ### Running the Framework
 To run the scripts:
